@@ -11,7 +11,7 @@ function createGallery(nb) {
         img.setAttribute('id', + i)
         img.setAttribute('data-lightbox', 'show-1')
         // pour modifier le style bootstrap directement là
-        img.classList.add('m-3','rounded', 'border', 'border-light', 'max-Height:300px')
+        img.classList.add('m-3', 'rounded', 'border', 'border-light')
 
         a.setAttribute("href", 'https://picsum.photos/200/300?random='+i)
         a.setAttribute('data-lightbox', 'show-1')
